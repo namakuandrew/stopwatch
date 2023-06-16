@@ -1,12 +1,12 @@
 // initialize all variable
 let milli_seconds = 0;
-second = 0;
-minutes = 0;
+let second = 0;
+let minutes = 0;
 let h2 = document.getElementById("time");
 
-(start = document.getElementById("button-start")),
-  (stop = document.getElementById("button-stop")),
-  (clear = document.getElementById("button-reset"));
+let start = document.getElementById("button-start");
+let stop = document.getElementById("button-stop");
+let clear = document.getElementById("button-reset");
 
 let interval = 1;
 
@@ -52,7 +52,7 @@ stop.onclick = function () {
 
 //reset button
 clear.onclick = function () {
-  h2.textcontent = "00 : 00 : 00";
+  h2.textContent = "00 : 00 : 00";
   seconds = 0;
   minutes = 0;
   milli_seconds = 0;
