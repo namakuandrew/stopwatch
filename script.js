@@ -1,6 +1,6 @@
 // initialize all variable
 let milli_seconds = 0;
-let second = 0;
+let seconds = 0;
 let minutes = 0;
 let h2 = document.getElementById("time");
 
